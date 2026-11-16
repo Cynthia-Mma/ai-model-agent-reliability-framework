@@ -1,0 +1,26 @@
+{
+  "name": "ai-model-agent-reliability-framework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An evidence-first framework for evaluating AI model accuracy, instruction-following, tool-use reliability, and AI agent performance.",
+  "author": "Cynthia Agwaraonye",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "node --test tests/framework.test.mjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

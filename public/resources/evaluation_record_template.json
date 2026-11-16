@@ -1,0 +1,34 @@
+{
+  "template_version": "1.0.0",
+  "instructions": "Complete one record per evaluated test scenario. All dimension scores use the 0-4 rubric scale (or null for Dimension E if tool use is N/A). Apply Critical-Failure Overrides before assigning final overall_result.",
+  "record": {
+    "test_id": "EVAL-000",
+    "model_or_agent_name": "",
+    "model_version_identifier": "",
+    "evaluation_date": "YYYY-MM-DD",
+    "evaluator": "",
+    "is_illustrative_demo": true,
+    "input_prompt": "",
+    "expected_outcome": "",
+    "actual_response": "",
+    "simulated_tool_trace": [],
+    "evidence_reviewed": [],
+    "evidence_classification": "Supported | Contradicted | Not verifiable",
+    "dimension_scores": {
+      "A_factual_accuracy": null,
+      "B_instruction_following": null,
+      "C_reasoning_consistency": null,
+      "D_uncertainty_handling": null,
+      "E_tool_use_reliability": null,
+      "F_task_completion": null,
+      "G_safety_compliance": null
+    },
+    "weighted_score_pct": null,
+    "failure_classification": [],
+    "severity": "None | Low | Medium | High | Critical",
+    "critical_override_triggered": false,
+    "overall_result": "PASS | CONDITIONAL_PASS | FAIL | FAIL_CRITICAL_OVERRIDE",
+    "evaluator_notes": "",
+    "recommended_action": ""
+  }
+}
