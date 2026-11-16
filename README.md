@@ -9,7 +9,7 @@
 
 ## Project Purpose
 
-This repository demonstrates how software quality engineering discipline—test strategy, risk-based testing, traceable assertions, defect taxonomy, and release gating—translates end to end into structured evaluation for LLMs and tool-using AI agents.
+This repository demonstrates how software quality engineering discipline—test strategy, risk-based testing, traceable assertions, defect taxonomy, and release gating—translates end to end into structured evaluation for LLMs and tool-using AI agents. Link: https://cynthia-mma.github.io/ai-model-agent-reliability-framework/
 
 It implements the complete 10-step evaluation lifecycle:
 1. Define evaluation objectives
